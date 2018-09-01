@@ -5,7 +5,7 @@
     
   <url>
     <loc>//litten.me/8512/05/21/%E5%B0%8F%E7%AA%9D%E7%AE%A1%E7%90%86%E6%9D%A1%E7%BA%A6/</loc>
-    <lastmod>2018-09-01T10:52:02.000Z</lastmod>
+    <lastmod>2018-09-01T11:13:46.000Z</lastmod>
     <data>
         <display>
         <title>小窝管理条约</title>
@@ -32,25 +32,6 @@
     </data>
     </url>
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
