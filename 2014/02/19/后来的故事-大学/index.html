@@ -8,6 +8,20 @@
   <link rel="dns-prefetch" href="http://heminhui.com">
   <title>后来的故事-大学 | 小猫咪的小窝</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <script>
+    (function () {
+        if ('{{ page.password }}') {
+            if (prompt('请输入文章密码') !== 'woaigege') {
+                alert('密码错误！');
+                if (history.length === 1) {
+                    location.replace("http://heminhui.com"); // 这里替换成你的首页
+                } else {
+                    history.back();
+                }
+            }
+        }
+    })();
+</script>
   <meta name="description" content="&amp;emsp;&amp;emsp;再后来的故事，很甜但也伴随着无奈，又夹杂着哥哥欠下的对小猫咪一辈子的内疚。。。">
 <meta name="keywords" content="相恋,大学">
 <meta property="og:type" content="article">
@@ -22,7 +36,7 @@
 <meta property="og:image" content="http://oudaz22af.bkt.clouddn.com/38.jpeg">
 <meta property="og:image" content="http://oudaz22af.bkt.clouddn.com/39.jpeg">
 <meta property="og:image" content="http://oudaz22af.bkt.clouddn.com/34.jpeg">
-<meta property="og:updated_time" content="2018-09-01T12:13:59.000Z">
+<meta property="og:updated_time" content="2018-09-03T08:05:06.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="后来的故事-大学">
 <meta name="twitter:description" content="&amp;emsp;&amp;emsp;再后来的故事，很甜但也伴随着无奈，又夹杂着哥哥欠下的对小猫咪一辈子的内疚。。。">
@@ -395,10 +409,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">闲聊</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">相恋</a>
               </li>
              
@@ -407,15 +417,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">相遇</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">相知</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">高中</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">闲聊</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">相遇</a>
               </li>
             
             <div class="clearfix"></div>
